@@ -3,8 +3,14 @@ import React from 'react'
 function page() {
   return (
     <>
-    <h1>hola mundo</h1>
-    <h1>preparados para la mejor aplicacion del mundo   solo sena </h1>
+    <p>Lorem ipsum dolor sit amet consectetur
+         adipisicing elit. Impedit adipisci ab 
+        doloribus eum? Quos expedita, eum nemo
+         minus earum culpa unde tenetur fugit
+          quo odit suscipit dolor. Error, nobis
+           veritatis.</p>
+
+           <h1>wenas wenas</h1>
     </>
   )
 }
