@@ -1,0 +1,49 @@
+.mayor{
+    margin-top: 80px;
+    margin-right: 300px;
+    margin-left: 300px;
+    background-color: aliceblue;
+}
+h1{
+    color: black;
+}
+.registro{
+    text-align: center;
+    margin-top: 20px
+}
+label{
+    color: black;
+    text-align: center
+}
+
+select{
+    color: black;
+    margin: 13px;
+    border: 2px solid black;
+    border-radius:10px ;
+    padding-left: 50px;
+    padding-right: 3px;
+}
+.divdatos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.divdatos form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Alinear elementos del formulario al inicio del contenedor */
+    width: 300px; /* Ancho fijo para el formulario */
+}
+
+
+input{
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 10px;
+    color: black;
+    padding-left: 15px;
+}
+
