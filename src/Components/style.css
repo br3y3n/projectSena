@@ -1,0 +1,16 @@
+
+  .barraLateral{
+    background-color: #53637a;
+    border-radius:10px ;
+    width: max-content;
+  }
+  .lista{
+    list-style: none;
+    width: max-content;
+    display: grid;
+    gap: 9rem;
+    padding: 0%;
+    text-align: center;
+    color: white;
+  }
+  
