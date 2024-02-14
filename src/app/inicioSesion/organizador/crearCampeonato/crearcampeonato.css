@@ -1,0 +1,55 @@
+
+.padre{
+    display: flex;
+}
+
+.contenedor2{
+    width: 82%;
+    right: 0px;
+    position: absolute;
+    background-color: #344050;
+}
+.contenedorDelNavbar{
+    display: flex;
+    justify-content: center; 
+}
+
+.imagenMasCampeonato{
+    
+    justify-content: center;
+    
+}
+
+.Navbar{
+   display: grid;
+   grid-gap: 30px;
+}
+.headerSidebar{
+    display: flex;
+    justify-content: start;
+}
+.sidebar2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contenedorPrincipalFormulario{
+    width: 100%;
+    
+    background-color: antiquewhite;
+}
+.contenedorFormulario{
+    width: 75%;
+    margin: auto;
+    margin-top: 10px;
+    height: 100%;
+    background-color: #43474d;
+}
+.letraBlanca{
+    text-align: center;
+    color: white;
+}
+.Formulario{
+    border-color: white;
+}
