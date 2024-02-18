@@ -1,13 +1,8 @@
-
-.padre{
-    display: flex;
-}
-
 .contenedor2{
-    width: 82%;
-    right: 0px;
-    position: absolute;
-    background-color: #344050;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+   background-color: #344050;
 }
 .contenedorDelNavbar{
     display: flex;
@@ -35,21 +30,135 @@
     align-items: center;
 }
 .contenedorPrincipalFormulario{
-    width: 100%;
     
-    background-color: antiquewhite;
+    width: 100%;
+   border: white solid 2px;
 }
-.contenedorFormulario{
-    width: 75%;
+.contenedorCrearCampeonato{
+   
+    width: 90%;
     margin: auto;
-    margin-top: 10px;
-    height: 100%;
-    background-color: #43474d;
+   background-color: #43474d;
 }
-.letraBlanca{
-    text-align: center;
+
+@keyframes scale-up {
+    to {scale: 1.5;}
+}
+@keyframes fade-away {
+    to {opacity: 0;}
+}
+section{
+    view-timeline: --scroll;
+}
+
+
+.spanText:first-child{
+    animation: fade-away both linear;
+	animation-timeline: --scroll;
+	animation-range: exit 20% exit 90%;
+}
+.seccionText{
+    position: relative;
+    min-height: 50vh ;
+    display: grid;
+    place-items: center;
+    
+}
+.spanText:first-of-type{
     color: white;
+    font-size: 50px;
+}
+.seccionText:nth-of-type(1){
+    height: 50vh;
+}
+
+
+
+*, *:after, *:before {
+	box-sizing: border-box;
+}
+
+
+.texto{
+    margin: 0px 50px;
+    font-size: 25px;
+   text-align: center;
+   color: white;
+   
+}
+ .fieldset{
+    border:white solid 1px;
+    padding: 20px;
+    border-radius: 5px;
+    color: white;
+} 
+.legend{
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    
 }
 .Formulario{
-    border-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+} 
+.form-group{
+    
+    display: flex;
+    align-content: center;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    
+   
+    width: 100%;
+    height: 40px;
+    border:none;
+}
+
+
+.form-group input{
+    
+    width: 20em;
+    font-size: 18px;
+    border-radius: 5px;
+    border: white solid 2px;
+    background-color: transparent;
+    color: white;
+    transition: 0.15s all ease;
+    
+}
+.form-group input:focus{
+    border-color:white;
+   
+}
+.form-group input::placeholder{
+    
+    color: transparent;
+}
+.form-group .form-label{
+    position: absolute;
+    top: auto;
+    left: 0;
+    font-size: 18px;
+    padding: 0 10px;
+    color: white;
+    pointer-events: none;
+    transition: 0.15s all ease;
+}
+
+.form-group input:focus + .form-label, .form-group input:not(:placeholder-shown) + .form-label{  transform: translate(10px ,-15px); 
+    background-color: #43474d;
+font-size: 16px;
+color:white;
+}
+.selectores{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 50px;
 }

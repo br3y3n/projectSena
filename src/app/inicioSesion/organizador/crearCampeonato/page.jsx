@@ -8,14 +8,11 @@ export default function CrearCampeonato() {
   return (
     <RootLayout>
 
-      <AsideBar>
-        
-      </AsideBar>
-
-      <h1>Content page crear campeonatos</h1>
+      <AsideBar/>
       <div class="contenedor2">
         <PaginaCampeonato />
       </div>
+      
      
     </RootLayout>
   )
