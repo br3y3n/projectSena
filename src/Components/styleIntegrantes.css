@@ -1,0 +1,39 @@
+.sectionP{
+        background-color: rgba(116, 126, 137, 0.3);
+            width: 1300%;
+            height: 120%;
+            border-radius: 5px;
+            margin-top: 30px;
+           
+        }
+.imagen{
+     border-radius: 40px;
+     margin: 15px;
+    
+
+}
+.figura{
+    border: 1px solid;
+    width: 20%;
+    height: 15%;
+    margin-left: 30px;
+    border-radius: 50px;
+    background-color: rgb(207, 206, 206);
+    padding-top: 40px;
+    
+}
+.botonVer{
+    background-color: brown;
+    padding: 15px;
+    border-radius: 25px;
+    width: 35%;
+    height: 35%;
+    text-align: center;
+    font-weight: 550;
+    display: inline-flex;
+   
+
+}
+.fig{
+    padding-top: 100px;
+}

@@ -1,49 +1,38 @@
-import Cards from "@/Components/cards";
+
 import Header from "@/Components/header";
 import './styleLanding.css'
+<<<<<<< HEAD
 import Link from "next/link";
  function Home() {
-  return (
-    <main>
-      <h1>Landing Page</h1>
-      <Link href={'/inicioSesion'}>Inicio Sesion</Link><br></br>
-      <Link href={'/recuperarPassoword'}>Recuperar Contraeña</Link> 
-    </main>
-  );
-}
+=======
 
-
-
-
-export default function LandingPage() {
+export default function Home() {
+>>>>>>> a24c58c42e526ed7e92eaf0268882781beeb4bad
   return (
     <>
+      <Header />
+      <div class="Conten">
 
-      <Header></Header>
+        <div class="Sub-cont">
+          <p class="cont-p">Crea campeonatos inolvidables. ¡Dale vida a la competencia
+            y eleva el espíritu deportivo! ¿Estás listo para ser parte
+            de la experiencia? </p>
+          <button class="cont-boton"
+            type="submit">¡Unete ahora!</button>
+        </div>
+        <div class="photo">
+          <img src="\image\imgLanding\futbol-sala.png" alt="" />
+          <img src="\image\imgLanding\section1.png" alt="" />
+        </div>
 
-      <section className='contenedorPage'>
-        <h1>Crea campeonatos inolvidables. Dale vida a la competencia y eleva el espíritu deportivo.</h1>
-        <h2>¿Estás listo para ser parte de la experiencia?</h2>
 
 
-      </section>
-      <button>¡Únete ahora!</button>
-
-      <Cards></Cards>
-
+      </div>
     </>
 
-  )
+
+  );
 }
-
-
-
-
-
-
-
-
-
 
 
 
@@ -134,4 +123,7 @@ export default function LandingPage() {
               <button type="submit">Registrarse</button>
             </form>
           </div>*/
+<<<<<<< HEAD
 
+=======
+>>>>>>> a24c58c42e526ed7e92eaf0268882781beeb4bad
