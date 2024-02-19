@@ -8,16 +8,13 @@
     padding: 10px;
 
 }
-.tituloFase{
-    align-items: flex-start;
-}
+
 .contenedor{
     display: flex;
     align-items: center;
 }
 .imagen{
     border: #030303;
-    border-radius: 100px;
 
 }
 
