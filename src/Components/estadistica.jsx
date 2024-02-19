@@ -9,11 +9,11 @@ export const Estadistica = () => {
     <>
     <div className='contenedorPartido ' > 
       <div className='imagen contenedor'>
-        <Image src="/millonarios.png" width={50} height={50}  className='imagen'/>
+          <Image src="/image/imageEstadistica/millonarios.png" width={60} height={100} className='imagen rounded-full' />
         <p className='nombreEquipo'>Millonarios</p>
         </div>
-          <div className='faltas'>
-
+        <div className='faltas'>
+        
           </div>
 
     </div>
