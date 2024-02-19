@@ -27,9 +27,9 @@ export default function AsideBar() {
           </div>
           <div className='contenedor'>
             <Image src={`${pathImg}/salir.png`} width={35} height={35}></Image>
-            <Link href={`${path}/salir`}>Salir</Link>
+            <Link href={`/inicioSesion`}>Salir</Link>
           </div >
           </ul>
-        </aside>
+      </aside>
     )
 }
