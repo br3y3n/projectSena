@@ -1,15 +1,34 @@
+
 import Link from 'next/link'
+import Image from 'next/image'
+
 import './style.css'
 export default function AsideBar() {
-  const path= '/inicioSesion/organizador'
+  const path = '/inicioSesion/organizador'
+  const pathImg = '/image/IconosSide'
     return(
         <aside className="barraLateral">
-          <ul className="lista">
-            <Link href={`${path}/campeonatos`}>Campeonatos</Link>
+        <ul className="lista">
+          <div className={`contenedor `}>
+            <Image src={`${pathImg}/campeonatos.png`}className='img' width={35} height={35}></Image>
+          <Link href={`${path}/campeonatos`} >Campeonatos </Link>
+          </div>
+          <div className='contenedor'>
+            <Image src={`${pathImg}/crearCampenato.png`} className='img2' width={35} height={35}></Image>
             <Link href={`${path}/crearCampeonato`}>Crear Campeonatos</Link>
+          </div>
+          <div className='contenedor'>
+            <Image src={`${pathImg}/fotos.png`} width={35} height={35}></Image>
             <Link href={`${path}/fotos`}>Fotos</Link>
+          </div>
+          <div className='contenedor'>
+            <Image src={`${pathImg}/cuenta.png`} width={35} height={35}></Image>
             <Link href={`${path}/cuenta`}>Cuenta</Link>
+          </div>
+          <div className='contenedor'>
+            <Image src={`${pathImg}/salir.png`} width={35} height={35}></Image>
             <Link href={`${path}/salir`}>Salir</Link>
+          </div >
           </ul>
         </aside>
     )

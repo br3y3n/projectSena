@@ -1,27 +1,62 @@
  .contenedorPartido {
     border:1px #ffff;
-    height: max-content;
-    display:flex;
-    justify-content:left;
-    background-color: rgb(109, 146, 153);
+    height:50px;
+    display: flex;
     align-items: center;
-    padding: 10px;
+
+ 
 
 }
-.tituloFase{
-    align-items: flex-start;
+.contepar{
+    border-bottom: 2px solid #ffff;
 }
 .contenedor{
     display: flex;
     align-items: center;
-}
-.imagen{
-    border: #030303;
-    border-radius: 100px;
+    width: 300px;
 
 }
+
 
 .nombreEquipo{
-    margin: 5px;
+    margin: 10%;
     color: #ffff;
+}
+.faltas{
+    width: 35px;
+    height: 35px;
+    margin-left: 15%;
+    display: flex;
+    justify-content: center;
+}
+.rojas{
+    margin: 1%;
+}
+.marcador{
+    color: #ffff;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-left:30%;
+   font-size:larger;
+border-right: 2px solid #ffff;
+height: 50px;
+width: 200px;
+
+}
+.estadoPartido{
+    display: flex;
+    justify-content: center;
+font-size: medium;
+margin-left: 5%;
+
+}
+.estadoPartido .botonDetalle{
+    height: 50px;
+    width: 160px;
+    margin-bottom: 14px;
+    border-radius: 10px;
+}
+.contenedorBoton{
+    width: 73px;
 }
