@@ -2,55 +2,54 @@ import Cards from "@/Components/cards";
 import Header from "@/Components/header";
 import './styleLanding.css'
 import Link from "next/link";
-<<<<<<< HEAD
-import PLanilla from "@/Components/planilla/page";
+
+
 export default function Home() {
   return (
     <main>
-      {/* <h1>Landing Page</h1>
+      <h1>Landing Page</h1>
       <Link href={'/inicioSesion'}>Inicio Sesion</Link><br></br>
-      <Link href={'/recuperarPassoword'}>Recuperar Contraeña</Link> */}
-      <PLanilla  />
+      <Link href={'/recuperarPassoword'}>Recuperar Contraeña</Link> 
     </main>
   );
 }
 
-=======
+
 
 
 export default function LandingPage() {
   return (
     <>
-   
+
       <Header></Header>
-     
-        <section className='contenedorPage'>
-          <h1>Crea campeonatos inolvidables. Dale vida a la competencia y eleva el espíritu deportivo.</h1>
-          <h2>¿Estás listo para ser parte de la experiencia?</h2>
-        
+
+      <section className='contenedorPage'>
+        <h1>Crea campeonatos inolvidables. Dale vida a la competencia y eleva el espíritu deportivo.</h1>
+        <h2>¿Estás listo para ser parte de la experiencia?</h2>
+
 
       </section>
       <button>¡Únete ahora!</button>
 
       <Cards></Cards>
-    
+
     </>
-   
+
   )
 }
 
 
-  
 
 
 
 
 
-     
-    
 
-    
-     
+
+
+
+
+
 
 
 
