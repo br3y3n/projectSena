@@ -1,19 +1,20 @@
 import SideCampeonato from '@/Components/sideCampeonato'
 import RootLayout from '@/app/layout'
 import '../../campeonatos/estadisticas/style.css'
+import{Estadistica} from '@/Components/estadistica.jsx'
+import React from 'react'
 
-const handleClick = () => {
-return <h1>hola</h1>
-}
 
 export default function Estadisticas() {
   return (
     <RootLayout>
         <SideCampeonato></SideCampeonato>
       <section className='section'>
-        <button className='btnJornada' onClick={handleClick()} >
-          Jornada
-        </button>
+        <select name="" id="" className='btnJornada'>Jornada
+          <option value="">Mañana</option>
+          <option value="">Tarde</option>
+        </select>
+        <Estadistica/>
 
      </section>
     </RootLayout>
