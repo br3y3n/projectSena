@@ -24,6 +24,7 @@ select{
     padding-left: 50px;
     padding-right: 3px;
 }
+
 .divdatos{
     display: flex;
     flex-direction: column;

@@ -35,6 +35,8 @@ export default function Registro() {
 
           <label for="">Confirmar Contraseña</label>
           <input type="password" placeholder="***********" name="password" id="password"/>
+
+          <button>Registrarse</button>
             
         </form>
         </div>
