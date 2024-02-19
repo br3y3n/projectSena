@@ -1,8 +1,7 @@
-import React from 'react'
-import SideBar from '../organizador/page'
+import AsideBar from "@/Components/sideBar";
 
 export default function SideBarJugador() {
   return (
-    <SideBar></SideBar>
+    <AsideBar></AsideBar>
   )
 }
