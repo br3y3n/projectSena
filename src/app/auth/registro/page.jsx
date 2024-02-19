@@ -3,44 +3,43 @@ import '../registro/styles.css';
 
 export default function Registro() {
   return (
-    <>
-      <div className='mayor'>
-        <h1 className='registro'>Registrate en GoSport</h1>
+    <div className='mayor'>
+      <h1 className='registro'>Registrate en GoSport</h1>
         
-        <div className='divdatos'>
+      <div className='divdatos'>
         <form action="datos">
           <label htmlFor="nombre">Nombres :</label>
-          <input type="text" id="nombre" name="nombre" placeholder="Ingrese su nombres" required />
+          <input type="text" id="nombre" name="nombre" placeholder="Ingrese su nombre" required />
           
           <label htmlFor="apellidos">Apellidos :</label>
-          <input type="text" id="nombre" name="nombre" placeholder="Ingrese sus apellidos" required />
+          <input type="text" id="apellidos" name="apellidos" placeholder="Ingrese sus apellidos" required />
 
           <label htmlFor="telefono">Telefono :</label>
-          <input type="number" id="telefono" name="telefono" placeholder="ej:3163221523" required />
+          <input className='la' type="tel" id="telefono" name="telefono" placeholder="ej:3163221523" required />
 
-          <label htmlFor="Genero">Genero :</label>
-          <select name="ciudad" id="ciudad">
-                    <option value="selecciona" disabled selected>selecciona</option>
-                    <option value="Femenino" >Femenino</option>
-                    <option value="medellin">Masculino</option>
-                    <option value="Prefiero no decirlo">Prefiero no decirlo</option>
-                </select> 
+          <label htmlFor="genero">Genero :</label>
+          <select name="genero" id="genero">
+            <option value="selecciona" disabled defaultValue>selecciona</option>
+            <option value="Femenino">Femenino</option>
+            <option value="Masculino">Masculino</option>
+            <option value="Prefiero no decirlo">Prefiero no decirlo</option>
+          </select>
           
           <br /> <br />
-          <label for="">email: </label>
-          <input type="email" name="email" id="email" placeholder="ej:pepito@gmail.com" />
+          <label htmlFor="email">Email: </label>
+          <input type="email" id="email" name="email" placeholder="ej:pepito@gmail.com" required />
 
-          <label for="">contraseña</label>
-          <input type="password" placeholder="***********" name="password" id="password"/>
+          <label htmlFor="password">Contraseña</label>
+          <input type="password" id="password" name="password" placeholder="***********" required />
 
-          <label for="">Confirmar Contraseña</label>
-          <input type="password" placeholder="***********" name="password" id="password"/>
+          <label htmlFor="confirmar-password">Confirmar Contraseña</label>
+          <input type="password" id="confirmar-password" name="confirmar-password" placeholder="***********" required />
 
-          <button>Registrarse</button>
-            
+          <div className='divre'>
+            <button type="submit" className='registros'>Registrarse</button>
+          </div>
         </form>
-        </div>
       </div>
-    </>
+    </div>
   );
 }

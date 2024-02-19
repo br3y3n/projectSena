@@ -1,19 +1,27 @@
+body{
+    background:#263344;
+}
+
+
 .mayor{
     margin-top: 80px;
-    margin-right: 300px;
-    margin-left: 300px;
-    background-color: aliceblue;
+    margin-left: 575px;
+    background: rgba(116, 126, 137, 0.3);
+    width: 800px;
+    height: 700px;
+    border-radius: 40px;
 }
 h1{
-    color: black;
+    color: white;
 }
 .registro{
     text-align: center;
     margin-top: 20px
 }
 label{
-    color: black;
+    color: rgb(0, 0, 0);
     text-align: center
+    
 }
 
 select{
@@ -23,6 +31,7 @@ select{
     border-radius:10px ;
     padding-left: 50px;
     padding-right: 3px;
+    background-color: #A1B9D1;
 }
 
 .divdatos{
@@ -35,16 +44,40 @@ select{
 .divdatos form {
     display: flex;
     flex-direction: column;
-    align-items: flex-start; /* Alinear elementos del formulario al inicio del contenedor */
-    width: 300px; /* Ancho fijo para el formulario */
+    align-items: flex-start; 
+    width: 300px; 
+} 
+/* Estilos para los placeholders */
+input::placeholder,
+select::placeholder {
+  color: #645555; 
+}
+
+input:focus::placeholder,
+select:focus::placeholder {
+    color: #645555; 
 }
 
 
-input{
+input {
+    background-color: #A1B9D1;
     border: 2px solid black;
     border-radius: 10px;
     margin: 10px;
     color: black;
     padding-left: 15px;
+}
+
+.divre{
+    margin-top: 5px;
+    margin-left: 68px;
+
+}
+.registros{
+    border-radius: 15px;
+    background-color: rgb(106, 106, 130);
+    width: 110px;
+    height: 33px;
+    
 }
 
