@@ -1,0 +1,27 @@
+ .contenedorPartido {
+    border:1px #ffff;
+    height: max-content;
+    display:flex;
+    justify-content:left;
+    background-color: rgb(109, 146, 153);
+    align-items: center;
+    padding: 10px;
+
+}
+.tituloFase{
+    align-items: flex-start;
+}
+.contenedor{
+    display: flex;
+    align-items: center;
+}
+.imagen{
+    border: #030303;
+    border-radius: 100px;
+
+}
+
+.nombreEquipo{
+    margin: 5px;
+    color: #ffff;
+}
