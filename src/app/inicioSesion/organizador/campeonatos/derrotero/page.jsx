@@ -5,7 +5,8 @@ export default function Derrotero() {
   return (
     <RootLayout>
         <SideCampeonato></SideCampeonato>
-        <section>Page derrotero</section>
+      <section>Page derrotero</section>
+      
     </RootLayout>
   )
 }

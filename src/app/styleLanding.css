@@ -1,0 +1,11 @@
+.contenedorPage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #a7a3a3;
+    border-radius: 3px solid;
+    padding: 20px;
+    margin-top: 150px;
+    margin-left: -1350px;
+
+}

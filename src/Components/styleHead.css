@@ -1,0 +1,23 @@
+
+.containerPrincipal {
+    display: flex;
+    justify-content: center;
+    margin-left: 390px;
+
+}
+
+.navLanding {
+    display: flex;
+    color: #fff;
+    font-family: sans-serif;
+    text-align: center;
+    margin: 0 50px;
+   
+}
+
+.navLanding a {
+    margin: 0 50px;
+    padding: 30px 75px;
+    margin: 10px 0;
+}
+  
