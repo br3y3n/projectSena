@@ -6,8 +6,10 @@ export default function Cards() {
                     <span className="absolute bottom-0 left-0 rounded-lg text-black text-xl font-bold m-10 px-5 py-3.5 bg-yellow-100/70">
                         <p>hola</p>
                         <button className="bg-red-500">hola</button>
+
                     </span>
-            </figure>
+                </figure>
+                
 
             </div>
 
