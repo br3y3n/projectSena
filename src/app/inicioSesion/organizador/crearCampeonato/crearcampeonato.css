@@ -203,3 +203,35 @@ option, select{
   background-color: #ff0000; /* Cambia el color de fondo de los eventos */
   color: #fff; /* Cambia el color del texto de los eventos */
 }
+.fc-toolbar-title {
+  font-size: 24px; /* Ajusta el tamaño de la fuente del título */
+  font-weight: bold; /* Añade negrita al título */
+  color: #ffffff; /* Cambia el color del texto del título */
+}
+.fc-button {
+  background-color: #fefeff; /* Cambia el color de fondo de los botones */
+  color: #fff; /* Cambia el color del texto de los botones */
+  border: none; /* Quita el borde de los botones */
+  border-radius: 5px; /* Ajusta la curvatura de las esquinas de los botones */
+  margin: 5px; /* Añade espacio entre los botones */
+  padding: 8px 12px; /* Ajusta el espacio interno dentro de los botones */
+  font-size: 14px; /* Ajusta el tamaño de la fuente de los botones */
+}
+.fc-button-disabled {
+  background-color: #ff0000; /* Cambia el color de fondo de los botones deshabilitados */
+  color: #ffffff; /* Cambia el color del texto de los botones deshabilitados */
+}
+.fc-today-button {
+  background-color: #28a745; /* Cambia el color de fondo del botón "today" */
+}
+
+/* Estilos para el botón "prev" */
+.fc-prev-button {
+  margin-right: 10px; 
+  background-color: #ff0000  ;/* Añade espacio a la derecha del botón "prev" */
+}
+
+/* Estilos para el botón "next" */
+.fc-next-button {
+  margin-left: 10px; /* Añade espacio a la izquierda del botón "next" */
+}
