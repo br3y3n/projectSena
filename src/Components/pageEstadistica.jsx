@@ -14,6 +14,7 @@ export default function Estadisticas() {
           <option value="">Mañana</option>
           <option value="">Tarde</option>
         </select>
+        <p className='tituloFase'>FASE 1</p>
         <Estadistica />
         <Estadistica />
         <Estadistica />

@@ -3,18 +3,16 @@
     height:50px;
     display: flex;
     align-items: center;
-
- 
-
 }
+
 .contepar{
     border-bottom: 2px solid #ffff;
 }
-.contenedor{
+.contenedorImagen{
     display: flex;
     align-items: center;
-    width: 300px;
-
+    width: 200px;
+margin-left: 10%;
 }
 
 
@@ -25,7 +23,7 @@
 .faltas{
     width: 35px;
     height: 35px;
-    margin-left: 15%;
+    margin-left: 25%;
     display: flex;
     justify-content: center;
 }
@@ -37,7 +35,7 @@
     display: flex;
     justify-content: center;
     text-align: center;
-    margin-left:30%;
+    margin-left:20%;
    font-size:larger;
 border-right: 2px solid #ffff;
 height: 50px;

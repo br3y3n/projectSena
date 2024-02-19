@@ -2,9 +2,7 @@ import Cards from "@/Components/cards";
 import Header from "@/Components/header";
 import './styleLanding.css'
 import Link from "next/link";
-
-
-export default function Home() {
+ function Home() {
   return (
     <main>
       <h1>Landing Page</h1>
@@ -136,4 +134,4 @@ export default function LandingPage() {
               <button type="submit">Registrarse</button>
             </form>
           </div>*/
->>>>>>> 9a8bebca56d6aef94fda9e4b90488997de92f2f2
+

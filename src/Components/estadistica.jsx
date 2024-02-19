@@ -8,7 +8,7 @@ export const Estadistica = () => {
   return (
     <>
       <div className='contenedorPartido ' > 
-      <div className='imagen contenedor'>
+      <div className=' contenedorImagen'>
           <Image src="/image/imageEstadistica/millonarios.png" width={60} height={100} className='imagen rounded-full' />
         <p className='nombreEquipo'>Millonarios</p>
         </div>
@@ -27,7 +27,7 @@ export const Estadistica = () => {
         
     </div>
     <div className='contenedorPartido contepar' >
-      <div className='imagen contenedor'>
+      <div className=' contenedorImagen'>
           <Image src="/image/imageEstadistica/nacional.png" width={60} height={100} className='imagen rounded-full'/>
         <p className='nombreEquipo'>Nacional</p>
         </div>
