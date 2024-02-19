@@ -8,7 +8,7 @@ export default function InicioSesion() {
         <section className='inicioSesion'>
         <Link href={'/inicioSesion/organizador/campeonatos'}>Organizador</Link><br></br>
         <Link href={'/inicioSesion/jugador'}>Jugador</Link>
-        </section>
+      </section>
     </div>
   )
 }

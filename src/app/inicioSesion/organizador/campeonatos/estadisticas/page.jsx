@@ -14,7 +14,14 @@ export default function Estadisticas() {
           <option value="">Mañana</option>
           <option value="">Tarde</option>
         </select>
-        <Estadistica/>
+        <Estadistica />
+        <Estadistica />
+        <Estadistica />
+        <Estadistica />
+        <Estadistica />
+        <Estadistica />
+        <Estadistica />
+       
 
      </section>
     </RootLayout>

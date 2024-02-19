@@ -1,42 +1,37 @@
-import Cards from "@/Components/cards";
+
 import Header from "@/Components/header";
 import './styleLanding.css'
-import Link from "next/link";
 
-
-export default function LandingPage() {
+export default function Home() {
   return (
     <>
-   
-      <Header></Header>
-     
-        <section className='contenedorPage'>
-          <h1>Crea campeonatos inolvidables. Dale vida a la competencia y eleva el espíritu deportivo.</h1>
-          <h2>¿Estás listo para ser parte de la experiencia?</h2>
-        
+      <Header />
+      <div class="Conten">
 
-      </section>
-      <button>¡Únete ahora!</button>
+        <div class="Sub-cont">
+          <p class="cont-p">Crea campeonatos inolvidables. ¡Dale vida a la competencia
+            y eleva el espíritu deportivo! ¿Estás listo para ser parte
+            de la experiencia? </p>
+          <button class="cont-boton"
+            type="submit">¡Unete ahora!</button>
+        </div>
+        <div class="photo">
+          <img src="\image\imgLanding\futbol-sala.png" alt="" />
+          <img src="\image\imgLanding\section1.png" alt="" />
+        </div>
 
-      <Cards></Cards>
-    
+
+
+      </div>
     </>
-   
-  )
+
+
+  );
 }
 
 
-  
 
 
-
-
-
-     
-    
-
-    
-     
 
 
 

@@ -1,0 +1,60 @@
+.content{
+    display: flex;
+    gap: 50px;
+}
+.sideBar{
+    margin: 20px;
+    padding-top: 20px;
+    list-style-type: none;
+    
+    color: aliceblue;
+    width: 170px;
+    height: 55rem;
+    font-size: small;
+    text-align: center;
+}
+.sideBar:hover{
+    background-color: #53637a;
+    transition: background-color 0.5s ease;
+}
+.text{
+    color: rgb(226, 36, 74);
+}
+.img{
+    margin-left: 60px;
+}
+.img2{
+    margin-left: 70px;
+}
+
+.body{
+    background-color: rgba(116, 126, 137, 0.3);
+        width: 88rem;
+        border-radius: 15px;
+        margin-top: 20px;
+        padding: 10px;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+}
+
+.div{
+    width: 100px;
+    height: 100px;
+    background-color: aliceblue;
+    margin: 20px;
+}
+.div2{
+    width: 250px;
+    height: 150px;
+    transform: translate(13rem , -5rem);
+}
+.div3{
+    transform: translate(35.5rem, -18rem);
+}
+.contentdiv{
+    transform: translateX(-14rem);
+    height: 20rem;
+    
+}
