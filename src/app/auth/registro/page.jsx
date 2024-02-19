@@ -36,8 +36,16 @@ export default function Registro() {
           <input type="password" id="confirmar-password" name="confirmar-password" placeholder="***********" required />
 
           <div className='divre'>
-            <button type="submit" className='registros'>Registrarse</button>
+            <button   type="submit" className='registros'>Registrarse</button>
+
+            
           </div>
+          <h1 className='cuenta'>¿Ya tienes cuenta? <a href="https://www.youtube.com/watch?v=-5r7yM3VdS0&ab_channel=EVANGOA%E2%84%A2">Registrate</a>
+          </h1> 
+  
+          
+
+         
         </form>
       </div>
     </div>
