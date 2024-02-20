@@ -7,8 +7,8 @@ export default function Header() {
             <header>
                 <div className='containerPrincipal'>
                     <nav className='navLanding'>
-                        <a href="">INICIAR SESIÓN</a>
-                        <a href="">REGISTRARSE</a>
+                        <a href="/inicioSesion">INICIAR SESIÓN</a>
+                        <a href="/registro">REGISTRARSE</a>
                         <a href="">EQUIPO BIENESTAR</a>
                         <a href="">CONTACTANOS</a>
                     </nav>

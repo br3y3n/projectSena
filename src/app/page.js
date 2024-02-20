@@ -1,13 +1,8 @@
 
 import Header from "@/Components/header";
 import './styleLanding.css'
-<<<<<<< HEAD
 import Link from "next/link";
- function Home() {
-=======
-
 export default function Home() {
->>>>>>> a24c58c42e526ed7e92eaf0268882781beeb4bad
   return (
     <>
       <Header />
@@ -26,16 +21,12 @@ export default function Home() {
         </div>
 
 
-
       </div>
     </>
 
+  )
 
-  );
-}
-
-
-
+  }
 
 
 
@@ -123,7 +114,4 @@ export default function Home() {
               <button type="submit">Registrarse</button>
             </form>
           </div>*/
-<<<<<<< HEAD
 
-=======
->>>>>>> a24c58c42e526ed7e92eaf0268882781beeb4bad

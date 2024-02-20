@@ -40,7 +40,7 @@ export default function principal() {
             <p className="mt-7">Fecha de inicio:   15/01/2024</p>
             <p className="mb-7">Fecha de finalizacion:   12/02/2024</p>
 
-            <Link href='/inicioSesion/organizador/campeonatos/estadisticas'
+            <Link href='/inicioSesion/organizador/campeonatos/estadisticas/tarde'
               className="text-white text-2xl bg-red-500 p-2 rounded-md ">Editar</Link>
           </div>
         </article>
