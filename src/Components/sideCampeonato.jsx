@@ -9,7 +9,7 @@ export default function SideCampeonato() {
     <ul className="lista">
         <div className={`contenedor `}>
           <Image src={`${pathImg}/estadistica.png`} className='img' width={35} height={35}></Image>
-          <Link href={`${path}/estadisticas`} >Estadisticas</Link>
+          <Link href={`${path}/estadisticas/tarde`} >Estadisticas</Link>
         </div>
         <div className='contenedor'>
           <Image src={`${pathImg}/cronograma.png`} className='img2' width={35} height={35}></Image>
