@@ -43,10 +43,11 @@ export default function Registro() {
           <h1 className='cuenta'>¿Ya tienes cuenta? <a href="https://www.youtube.com/watch?v=-5r7yM3VdS0&ab_channel=EVANGOA%E2%84%A2">Inicia sesion</a>
           </h1> 
   
-          
+          <h1>hola a todos</h1>
 
          
         </form>
+        <h1>hola</h1>
       </div>
     </div>
   );
