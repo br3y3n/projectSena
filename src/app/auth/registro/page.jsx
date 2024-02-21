@@ -4,7 +4,8 @@ import '../registro/styles.css';
 export default function Registro() {
   return (
     <div className='mayor'>
-      <h1 className='registro'>Registrate en GoSport</h1>
+      <h1 className='titulo'>Registrate en GoSport</h1>
+      <br />
         
       <div className='divdatos'>
         <form action="datos">
@@ -25,7 +26,7 @@ export default function Registro() {
             <option value="Prefiero no decirlo">Prefiero no decirlo</option>
           </select>
           
-          <br /> <br />
+          <br /> 
           <label htmlFor="email">Email: </label>
           <input type="email" id="email" name="email" placeholder="ej:pepito@gmail.com" required />
 
