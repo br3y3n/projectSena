@@ -11,6 +11,7 @@ export default function Calendarioo() {
         <FullCalendar class="DiseñoDeCalendario"
             plugins={[dayGridPlugin, interactionPlugin, timeGridPlugin]}
                 headerToolbar={{ 
+                color : 'red',
                 left: 'prev,next today',
                 center: 'title',
                 right: 'dayGridMonth, timeGridWeek'
