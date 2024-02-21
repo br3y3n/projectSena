@@ -1,47 +1,47 @@
 body{
-    margin: 0%;
-    padding: 0%;
-    background-color: #263344;
-    color: aliceblue;
+    background-image: url('../../../public/image/imgRegistro/fondoIniciar.jpeg');
+    background-size: 100% ;
+    background-repeat: no-repeat;
+
 }
-.inicioSesion{
-    color: rgb(67, 170, 226);
-    text-decoration: none;
-    font-size: 30px;
-   
-}
-.contenedor-login h2 {
-    text-align: center;
-    margin-bottom: 20px;
+.mayor {
+    margin-top: 190px;
+    margin-left: auto;
+    margin-right: auto;
+    background: rgba(116, 126, 137, 0.6);
+    width: 650px;
+    height: auto;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
 }
 
-.campo {
-    margin-bottom: 15px;
+.datos form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+input{
+    margin: 15px;
+    width: 280px;
+    height: 35px;
+    border-radius: 20px;
+    padding-left: 30px;
+    
 }
 
-.campo label {
-    display: block;
-    margin-bottom: 5px;
-}
-
-.campo input {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-}
-
-button[type="submit"] {
-    width: 100%;
-    padding: 10px;
-    background-color: red;
+button{
+    border-radius: 15px;
+    background-color: #C63F3F;
     color: white;
     border: none;
-    border-radius: 5px;
+    padding: 5px 20px;
     cursor: pointer;
-    transition: background-color 0.3s ease;
+    margin-top: 10px;
 }
+label,input,h1, button{
+    font-weight: bold;
 
-button[type="submit"]:hover {
-    background-color: darkred;
 }
