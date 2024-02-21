@@ -1,5 +1,7 @@
 .barraLateral {
-  height: 60rem;
+  height: 100vh;
+  position: sticky;
+  left: 0;
 }
 .barraLateral:hover {
   background-color: #53637a;
