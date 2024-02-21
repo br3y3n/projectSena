@@ -4,14 +4,21 @@
     display: flex;
     align-items: center;
 }
-
+.btnJornada{
+    border-radius: 10px;
+    height: 40px;
+    background-color: #C63F3F;
+}
+option .btnJornada{
+    background-color: #C63F3F;
+}
 .contepar{
     border-bottom: 2px solid #ffff;
 }
 .contenedorImagen{
     display: flex;
     align-items: center;
-    width: 200px;
+    width: 300px;
 margin-left: 10%;
 }
 
