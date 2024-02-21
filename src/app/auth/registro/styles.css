@@ -1,14 +1,17 @@
 body{
-    background:#263344;
+    /*background-image: url('https://as01.epimg.net/masdeporte/imagenes/2021/08/18/reportajes/1629287252_471087_1632935001_noticiareportajes_grande.jpg');*/
+    background-image: url('../../../../public/image/imgRegistro/jugador.jpg');
+    background-size: 100% 125%;
+    background-repeat: no-repeat;
 }
 
 
 .mayor{
     margin-top: 80px;
-    margin-left: 575px;
-    background: rgba(116, 126, 137, 0.3);
+    margin-left: 900px;
+    background: rgba(116, 126, 137, 0.6);
     width: 800px;
-    height: 700px;
+    height: auto;
     border-radius: 40px;
 }
 h1{
@@ -75,9 +78,13 @@ input {
 }
 .registros{
     border-radius: 15px;
-    background-color: rgb(106, 106, 130);
+    background-color: #C63F3F;
     width: 110px;
     height: 33px;
     
+}
+
+.cuenta{
+    margin-top: 30px;
 }
 
