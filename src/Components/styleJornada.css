@@ -1,0 +1,24 @@
+.section{
+background-color: rgba(116, 126, 137, 0.3);
+    width: 80%;
+   border-radius: 15px;
+    margin-top: 20px;
+    max-height: max-content;
+}
+.section button{
+background-color: rgba(198, 63, 63,1);
+}
+ .btnJornada{
+    background-color: rgba(198, 63, 63,1);
+    height: 40px;
+    color: #ffffff;
+    width: 120px;
+    margin: 20px;
+    border-radius: 10px;
+}
+.tituloFase{
+    color: #ffffff;
+    font-size: large;
+    font-weight: bold;
+    margin-left: 15%;
+}

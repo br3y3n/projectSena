@@ -1,0 +1,28 @@
+
+.section{
+    margin-top: 20px;
+   width: 80%;
+}
+.formulario{
+    display: grid;
+    padding: 20px;
+    background-color: rgba(116, 126, 137, 0.3);
+    width: 40rem;
+    border-radius: 15px;
+    margin-top: 20px;
+    max-height: max-content;  
+    margin: 5rem 25%;   
+    justify-content: center;
+    gap: 8px;
+}
+input{
+    width: 200px;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+.guardar{
+    background-color: rgb(240, 37, 78);
+    color: aliceblue;
+    border-radius: 10px;
+
+}

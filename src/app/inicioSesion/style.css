@@ -1,0 +1,47 @@
+body{
+    background-image: url('https://as01.epimg.net/masdeporte/imagenes/2021/08/18/reportajes/1629287252_471087_1632935001_noticiareportajes_grande.jpg');
+    background-size: 100% ;
+    background-repeat: no-repeat;
+
+}
+.mayor {
+    margin-top: 190px;
+    margin-left: auto;
+    margin-right: auto;
+    background: rgba(116, 126, 137, 0.6);
+    width: 650px;
+    height: auto;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.datos form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+input{
+    margin: 15px;
+    width: 280px;
+    height: 35px;
+    border-radius: 20px;
+    padding-left: 30px;
+    
+}
+
+button{
+    border-radius: 15px;
+    background-color: #C63F3F;
+    color: white;
+    border: none;
+    padding: 5px 20px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+label,input,h1, button{
+    font-weight: bold;
+
+}

@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link'
 import '../registro/styles.css';
 
 export default function Registro() {
@@ -41,7 +42,7 @@ export default function Registro() {
 
             
           </div>
-          <h1 className='cuenta'>¿Ya tienes cuenta? <a href="https://www.youtube.com/watch?v=-5r7yM3VdS0&ab_channel=EVANGOA%E2%84%A2">Registrate</a>
+          <h1 className='cuenta'>¿Ya tienes cuenta? <Link href="/inicioSesion">inicia sesion</Link>
           </h1> 
   
           

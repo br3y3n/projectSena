@@ -1,0 +1,7 @@
+.sect {
+    background-color: rgba(116, 126, 137, 0.3);
+    width: 80%;
+    border-radius: 15px;
+    margin-top: 20px;
+    max-height: max-content;
+}
