@@ -25,7 +25,7 @@ export default function Registro() {
             <option value="Prefiero no decirlo">Prefiero no decirlo</option>
           </select>
           
-          <br /> <br />
+          <br />
           <label htmlFor="email">Email: </label>
           <input type="email" id="email" name="email" placeholder="ej:pepito@gmail.com" required />
 
@@ -40,7 +40,7 @@ export default function Registro() {
 
             
           </div>
-          <h1 className='cuenta'>¿Ya tienes cuenta? <a href="https://www.youtube.com/watch?v=-5r7yM3VdS0&ab_channel=EVANGOA%E2%84%A2">Registrate</a>
+          <h1 className='cuenta'>¿Ya tienes cuenta? <a href="https://www.youtube.com/watch?v=-5r7yM3VdS0&ab_channel=EVANGOA%E2%84%A2">Inicia sesion</a>
           </h1> 
   
           

@@ -1,90 +1,67 @@
-body{
-    /*background-image: url('https://as01.epimg.net/masdeporte/imagenes/2021/08/18/reportajes/1629287252_471087_1632935001_noticiareportajes_grande.jpg');*/
-    background-image: url('../../../../public/image/imgRegistro/jugador.jpg');
-    background-size: 100% 125%;
+/* Estilos base */
+body {
+    background-image: url('https://as01.epimg.net/masdeporte/imagenes/2021/08/18/reportajes/1629287252_471087_1632935001_noticiareportajes_grande.jpg');
+    background-size: cover; /* Ajusta la imagen para cubrir todo el fondo */
     background-repeat: no-repeat;
+    margin: 0; /* Elimina el margen predeterminado del body */
+    padding: 0; /* Elimina el padding predeterminado del body */
 }
 
-
-.mayor{
-    margin-top: 80px;
-    margin-left: 900px;
+.mayor {
+    margin: 20px auto; /* Centra el contenedor mayor */
+    max-width: 800px; /* Limita el ancho máximo del contenedor mayor */
     background: rgba(116, 126, 137, 0.6);
-    width: 800px;
-    height: auto;
     border-radius: 40px;
-}
-h1{
-    color: white;
-}
-.registro{
-    text-align: center;
-    margin-top: 20px
-}
-label{
-    color: rgb(0, 0, 0);
-    text-align: center
+    padding: 20px;
     
 }
 
-select{
-    color: black;
-    margin: 13px;
-    border: 2px solid black;
-    border-radius:10px ;
-    padding-left: 50px;
-    padding-right: 3px;
-    background-color: #A1B9D1;
+.registro {
+    text-align: center;
+    margin-top: 20px;
+    color: white;
 }
 
-.divdatos{
+.divdatos {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 50px;
+    margin-top: 20px;
 }
 
 .divdatos form {
     display: flex;
     flex-direction: column;
-    align-items: flex-start; 
-    width: 300px; 
-} 
-/* Estilos para los placeholders */
-input::placeholder,
-select::placeholder {
-  color: #645555; 
+    align-items: flex-start;
+    width: 100%; /* Ajusta el ancho del formulario al 100% del contenedor */
 }
 
-input:focus::placeholder,
-select:focus::placeholder {
-    color: #645555; 
+input, select {
+    width: calc(95% - 20px); /* Ajusta el ancho de los campos de entrada y selección al 100% con un margen de 10px a cada lado */
+    margin: 10px; /* Añade un poco de espacio entre los campos */
+    padding: 10px;
+    border-radius: 20px; /* Añade espacio interno a los campos */
 }
 
-
-input {
-    background-color: #A1B9D1;
-    border: 2px solid black;
-    border-radius: 10px;
-    margin: 10px;
-    color: black;
-    padding-left: 15px;
+.divre {
+    text-align: center; /* Centra el botón */
 }
 
-.divre{
-    margin-top: 5px;
-    margin-left: 68px;
-
-}
-.registros{
+.registros {
     border-radius: 15px;
     background-color: #C63F3F;
     width: 110px;
     height: 33px;
-    
+    color: white;
+    border: none;
 }
 
-.cuenta{
-    margin-top: 30px;
+.cuenta {
+    margin-top: 20px;
+    text-align: center;
+    color: white;
 }
 
+a {
+    color: red;
+}
