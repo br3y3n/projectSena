@@ -1,45 +1,48 @@
 .ContainerPrincipal{
-     width:100%;
+    width:100%;
     overflow-y: auto;
-
+    display: flex;
+    flex-direction: column;
 }
 .contenedorCronograma{
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    gap: 30%;
+    position: fixed;
+    width: 18%;
+    margin-top: 15px;
     height: 100px;
+
 }
-.Seccion{
-    width: 25%;
-    height: 100%;
+.principalEquipos{
+    padding: 15px;
+    margin: auto;
+    width: auto;
+    background-color: rgba(116,126,137,0.3);
 }
+/* module.css */
+
 .contenedorEqipos{
     width: 100%;
-
 }
 .texto{
     font-size: 25px;
     font-family: bold;
     text-align: center;
+    color: white;
 }
-.principalEquipos{
-    padding: 15px;
-    margin: auto;
-    width: 70%;
-    background-color: rgb(126, 126, 127);
-}
+
 .contenedorCard{
     margin: auto;
     height: 150px;
-    border: 1px solid black;
+    box-shadow:20px 20px 0px rgba(0, 0, 0, 0.3);
     background-color: white;
     width: 60%;
     display: flex;
     flex-direction: row;
 }
+.contenedorCard:hover{
+    transform: translate(0px,-5px);
+}
 .seccion1{
-    width: 55%;
+    width: 100%;
     border-right: 1px solid black;
     height: 100%;
     display: flex;
