@@ -10,7 +10,7 @@ export default function Manana() {
       <RootLayout>
 
         <SideCampeonato></SideCampeonato>
-        <div className=''>
+        <div >
           <h1 className='jornada'>Mañana</h1>
           <PageEstadisticas />
         </div>

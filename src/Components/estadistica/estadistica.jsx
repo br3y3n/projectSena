@@ -1,9 +1,10 @@
 import '@/Components/estadistica/styleEstadistica.css'
 import React from 'react'
 import Image from 'next/image'
+import Link from 'next/link'
+import Boton from '@/app/inicioSesion/organizador/crearCampeonato/Boton'
 
-
-
+const path = '/inicioSesion/organizador/campeonatos/estadisticas/'
 export const Estadistica = () => {
   return (
     <>
@@ -41,7 +42,7 @@ export const Estadistica = () => {
           <p>2</p>
         </div>
         <div className='estadoPartido contenedorBoton'>
-          <button className='botonDetalle' >ver detalle</button>
+          <button className='botonDetalle'><Link href={`${path}/verDetalle`}>ver detalle</Link></button>
         </div>
     </div>
     </>
