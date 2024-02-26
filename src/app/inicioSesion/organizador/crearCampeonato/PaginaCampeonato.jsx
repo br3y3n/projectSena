@@ -78,7 +78,18 @@ export default function PaginaCampeonato() {
                             </div>
 
                         </fieldset>
-
+                       
+                        <fieldset class="fieldset">
+                            <legend class="legend">LIMITE DE INTEGRANTES</legend>
+                            <div class="selectores" >
+                            <label>Cantidad minima</label>
+                            <input class="minMax" type="number" name="cantidad" min= "0" max="20" step="1"/>
+                            </div>
+                            <div class="selectoresFinal" >
+                            <label>Cantidad maxima</label>
+                            <input class="minMax" type="number" name="cantidad" min= "0" max="20" step="1"/>
+                            </div>
+                        </fieldset>
                     </div>
                 </div>
 
