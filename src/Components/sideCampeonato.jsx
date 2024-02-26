@@ -25,7 +25,7 @@ export default function SideCampeonato() {
         </div>
         <div className='contenedor'>
           <Image src={`${pathImg}/campeonatos.png`}className='img5' width={35} height={35}></Image>
-          <Link href={`${path}`}>Campeonato</Link>
+          <Link href={`${path}`}>Campeonatos</Link>
         </div >
     </ul>
   </aside>

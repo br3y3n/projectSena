@@ -1,6 +1,7 @@
 .barraLateral {
   height: 60rem;
   position: fixed;
+  width: max-content;
 }
 .barraLateral:hover {
   background-color: #53637a;

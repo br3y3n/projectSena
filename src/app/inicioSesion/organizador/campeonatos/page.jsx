@@ -1,13 +1,13 @@
 import AsideBar from "@/Components/sideBar";
 import RootLayout from "@/app/layout";
 import Link from "next/link";
-import './style.css'
-
+import './styleCampeonatos.css'
 
 export default function principal() {
   return (
 
     <RootLayout>
+      <body className="principal bg-gray-700">
 
       <AsideBar></AsideBar>
 
@@ -46,6 +46,7 @@ export default function principal() {
         </article>
         
       </section>
+              </body>
     </RootLayout>
 
 

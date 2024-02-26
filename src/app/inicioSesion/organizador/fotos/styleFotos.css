@@ -1,3 +1,7 @@
+.principalFotos{
+    display: flex;
+    gap: 16px;
+}
 .body{
     
     background-color: rgba(116, 126, 137, 0.3);
@@ -8,7 +12,7 @@
         padding: 10px;
         margin-left:180px;  
     }
-.contenedor{
+.contenedorF{
     display: flex;
     padding: 40px;
     justify-content: center;

@@ -6,6 +6,8 @@ import ComponenteCronograma from './EditorCronograma'
 export default function Cronograma() {
   return (
     <RootLayout>
+      <body className=" flex bg-gray-700 gap-16 ml-52">
+
         <SideCampeonato/>
       <div class="ContainerPrincipal">
         <header class="contenedorCronograma">
@@ -46,7 +48,7 @@ export default function Cronograma() {
         </div>
         
       </div>
-
+      </body>
     </RootLayout>
   )
 }
