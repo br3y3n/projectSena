@@ -16,7 +16,7 @@ export default function Componente ({imagen1, imagen2, texto1, texto2}){
         <p>{texto2}</p>
         </span>
         </section>
-        <section class="detalles">
+        <section class="seccion2">
         <p >Detalles</p>
         <span>
         <label>Hora:</label>
