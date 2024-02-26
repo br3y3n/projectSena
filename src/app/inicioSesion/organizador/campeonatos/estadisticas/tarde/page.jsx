@@ -8,12 +8,13 @@ export default function Tarde() {
   return (
     <>
       <RootLayout>
-
+      <body className=" flex bg-gray-700 gap-16 ml-52">
         <SideCampeonato></SideCampeonato>
         <div>
           <h1 className='jornada'>Tarde</h1>
           <PageEstadisticas />
         </div>
+        </body>
       </RootLayout>
     </>
   )

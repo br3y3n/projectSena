@@ -1,10 +1,10 @@
 import AsideBar from "@/Components/sideBar";
 import RootLayout from "@/app/layout";
-import './style.css'
+import './styleCuenta.css'
 export default function Cuenta() {
   return (
     <RootLayout>
-
+      <body className="principalCuenta bg-gray-700">
       <AsideBar></AsideBar>
 
       <section className="section">
@@ -40,6 +40,7 @@ export default function Cuenta() {
           <button className="guardar">Guardar cambios</button>
         </form>
       </section>
+      </body>
     </RootLayout>
   )
 }

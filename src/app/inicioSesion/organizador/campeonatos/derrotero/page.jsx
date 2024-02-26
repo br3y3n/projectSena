@@ -6,6 +6,8 @@ import './style.css'
 export default function Derrotero() {
   return (
     <RootLayout>
+      <body className=" flex bg-gray-700 gap-16 ml-52">
+
         <SideCampeonato></SideCampeonato>
      
         <>
@@ -132,8 +134,7 @@ export default function Derrotero() {
           </div>
 
         </>
-    
-      
+      </body>
     </RootLayout>
   )
 }

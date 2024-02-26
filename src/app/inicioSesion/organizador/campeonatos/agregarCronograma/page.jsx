@@ -5,6 +5,8 @@ import RootLayout from '@/app/layout'
 export default function Cronograma() {
   return (
     <RootLayout>
+      <body className=" flex bg-gray-700 gap-16 ml-52">
+
         <SideCampeonato/>
       <div class="ContainerPrincipal">
         <header class="contenedor Cronograma">
@@ -21,7 +23,7 @@ export default function Cronograma() {
         </div>
         
       </div>
-
+      </body>
     </RootLayout>
   )
 }

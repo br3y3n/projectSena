@@ -2,7 +2,7 @@
 import Link from 'next/link'
 import Image from 'next/image'
 
-import './style.css'
+import './styleSide.css'
 export default function AsideBar() {
   const path = '/inicioSesion/organizador'
   const pathImg = '/image/IconosSide'
