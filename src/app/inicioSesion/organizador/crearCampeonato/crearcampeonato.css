@@ -111,5 +111,54 @@ option, select{
     flex-direction: row;
     gap: 50px;
     margin-bottom: 30px;
+}
+.minMax{
+    text-align: center;
+    border:1px solid black;
+    border-radius: 15px;
+    height: 40px;
+    background-color: #e5601e;
+}
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    margin: 0;
+    position: static;
+}
 
+input[type="number"] {
+    -moz-appearance: static;
+}
+
+/* Estilo para el control de número */
+input[type="number"] {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 100px; /* Ajusta el ancho según tu diseño */
+    position: relative;
+}
+
+/* Flecha de incremento */
+input[type="number"]::after {
+    content: "\25B2"; /* Código Unicode para la flecha hacia arriba */
+    position: absolute;
+    top: 30%;
+    right: 8px;
+    color: #888; /* Color de la flecha */
+}
+
+/* Flecha de decremento */
+input[type="number"]::before {
+    content: "\25BC"; /* Código Unicode para la flecha hacia abajo */
+    position: absolute;
+    bottom: 30%;
+    right: 8px;
+    color: #888; /* Color de la flecha */
+}
+
+/* Cambia el color de fondo y el color del texto al enfocar */
+input[type="number"]:focus {
+    background-color: #f0f0f0;
+    color: #333;
 }

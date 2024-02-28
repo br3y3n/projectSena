@@ -2,7 +2,11 @@ import AsideBar from "@/Components/sideBar";
 import RootLayout from "@/app/layout";
 
 import "./crearcampeonato.css"
+<<<<<<< HEAD
 import Boton from "./Boton";
+=======
+
+>>>>>>> a734cee4ee9175714453bc8965a6efe7d47fd63c
 
 export default function CrearCampeonato() {
   return (
