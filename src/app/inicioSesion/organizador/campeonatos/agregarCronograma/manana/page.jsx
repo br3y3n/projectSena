@@ -6,10 +6,10 @@ import React from 'react'
 export default function Manana() {
     return (
         <>
-        <section>
-                <h1 class="texto">Mañana</h1>
+            <section class="contenedorDeTextoJornada">
+                <h1 class="texto">MAÑANA</h1>
             </section>
-            <div class="contendorEquipos">
+            <div class="contenedorEquipos">
 
                 <ComponenteCronograma texto2={"Cali"} texto1={"Once Caldas"}
                     imagen1={<Image src={'/image/Cronogramas/EscudoNacional.png'} />}
@@ -20,20 +20,27 @@ export default function Manana() {
                     imagen2={""}
                 />
                 <ComponenteCronograma texto2={"Alemania"} texto1={"Francia"}
-                    imagen1={""}
-                    imagen2={""}
+                   
                 />
                 <ComponenteCronograma texto2={"Millonarios"} texto1={"Pasto"}
-                    imagen1={""}
-                    imagen2={""}
+                 
                 />
                 <ComponenteCronograma texto2={"Colombia"} texto1={"Venezuela"}
-                    imagen1={""}
-                    imagen2={""}
+                    
                 />
                 <ComponenteCronograma texto2={"Argetnina"} texto1={"Peru"}
-                    imagen1={""}
-                    imagen2={""}
+                  
+                />
+                <ComponenteCronograma texto2={"Barcelona"} texto1={"Pasto"}
+                />
+                <ComponenteCronograma texto2={"Chelsea"} texto1={"Pasto"}
+                   
+                />
+                <ComponenteCronograma texto2={"Tolima"} texto1={"Amazonas"}
+                 
+                />
+                <ComponenteCronograma texto2={"Bogota"} texto1={"Popayan"}
+                    
                 />
             </div>
         </>

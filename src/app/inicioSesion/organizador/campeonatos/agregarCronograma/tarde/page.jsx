@@ -4,29 +4,44 @@ import "../Cronograma.css"
 export default function Tarde() {
     return (
         <>
-        <section>
-                <h1 class="texto">Tarde</h1>
+            <section class="contenedorDeTextoJornada">
+                <h1 class="texto">TARDE</h1>
             </section>
-            <div class="contendorEquipos">
+            <div class="contenedorEquipos">
                 <ComponenteCronograma
-                     imagen1={''}
                     texto1={'Cali'} texto2={'Nacional'}></ComponenteCronograma>
                 <ComponenteCronograma
-                    imagen1={''}
-                    imagen2={'/public/image/Cronogramas/EscudoNacional.png'}
                     texto1={'Pasto'} texto2={'Bogota'}></ComponenteCronograma>
                 <ComponenteCronograma
-                    imagen1={''}
-                    imagen2={'/public/image/Cronograma/EscudoNacional.png '}
                     texto1={'Colombia'} texto2={'Puerto Rico'}></ComponenteCronograma>
                 <ComponenteCronograma
-                    imagen1={''}
-                    imagen2={'/public/image/Cronograma/EscudoNacional.png '}
                     texto1={'Millnarios'} texto2={'Nacional'}></ComponenteCronograma>
                 <ComponenteCronograma
-                    imagen1={''}
-                    imagen2={'/public/image/Cronograma/EscudoNacional.png '}
                     texto1={'Argentina'} texto2={'Peru'}></ComponenteCronograma>
+                <ComponenteCronograma texto2={"Millonarios"} texto1={"Pasto"}
+                />
+                <ComponenteCronograma texto2={"Millonarios"} texto1={"Pasto"}
+                />
+                <ComponenteCronograma texto2={"Millonarios"} texto1={"Pasto"}
+                />
+                <ComponenteCronograma texto2={"Millonarios"} texto1={"Pasto"}
+                />
+
+                <ComponenteCronograma texto2={"Millonarios"} texto1={"Pasto"}
+                    imagen1={""}
+                    imagen2={""}
+                />
+                <ComponenteCronograma texto2={"Millonarios"} texto1={"Pasto"}
+                    imagen1={""}
+                    imagen2={""}
+                />
+                <ComponenteCronograma texto2={"Millonarios"} texto1={"Pasto"}
+                    imagen1={""}
+                    imagen2={""}
+                />
+
+
+
             </div>
         </>
     )

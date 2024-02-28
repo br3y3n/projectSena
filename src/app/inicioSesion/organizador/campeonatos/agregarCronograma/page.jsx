@@ -19,7 +19,7 @@ export default function Cronograma() {
       <SideCampeonato />
       <div class="ContainerPrincipal">
         <div class="contenedorCronograma">
-          <select value={selectOption} onChange={handleChange}>
+          <select value={selectOption} class="selectorJornada" onChange={handleChange}>
             <option value={"manana"} >Jornada Mañana
             </option>
             <option value={"tarde"}>Jornada Tarde</option>
