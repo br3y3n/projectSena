@@ -23,7 +23,13 @@ export default function PageEstadisticas() {
         <option value={`${path}/manana`} className='btnJornada' >Mañana</option>
         <option value={`${path}/tarde`} className='btnJornada' >Tarde</option>
         </select>
-        <p className='tituloFase'>FASE 1</p>
+      <p className='tituloFase'>FASE 1</p>
+      <div className='contenedorTitulos'>
+        <h1 className='titulo tiEquipo'>Equipos</h1>
+        <h1 className='titulo tiFalta'>Faltas</h1>
+        <h1 className='titulo tiMarcador'>Marcador</h1>
+        <h1 className='titulo tiEstado'>Estado partido</h1>
+      </div>
      <div >
           <Estadistica />
           <Estadistica />

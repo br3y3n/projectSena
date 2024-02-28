@@ -8,9 +8,10 @@ const path = '/inicioSesion/organizador/campeonatos/estadisticas/'
 export const Estadistica = () => {
   return (
     <>
+     
       <div className='contenedorPartido ' > 
       <div className=' contenedorImagen'>
-          <Image src="/image/imageEstadistica/millonarios.png" width={60} height={100} className='imagen rounded-full' />
+          <Image src="/image/imageEstadistica/MILONARIOS.png" width={40} height={40} className='imagen ' />
         <p className='nombreEquipo'>Millonarios</p>
         </div>
         <div className='faltas bg-yellow-500 '>
@@ -29,7 +30,7 @@ export const Estadistica = () => {
     </div>
     <div className='contenedorPartido contepar' >
       <div className=' contenedorImagen'>
-          <Image src="/image/imageEstadistica/nacional.png" width={60} height={100} className='imagen rounded-full'/>
+          <Image src="/image/imageEstadistica/NACIONAL.png" width={40} height={40} className='imagen '/>
         <p className='nombreEquipo'>Nacional</p>
         </div>
         <div className='faltas bg-yellow-500 '>

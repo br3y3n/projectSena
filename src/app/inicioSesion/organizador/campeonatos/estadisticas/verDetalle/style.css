@@ -6,8 +6,7 @@
     background-color: #747E89;
     width: 80%;
     height: 90vh;
-    margin-left: 10%;
-    margin: 2%;
+    margin: 2% 2% 2% 10%;
 }
 .contenedorEquipo{
     display: grid;
@@ -15,20 +14,16 @@
     align-items: center;
     justify-content: center;
 }
-.imageEquipo{
-    border-radius: 60%;
-    
-}
+
 .nombreEquipo{
 margin-left: 41%;
 color: #020202;
 font-weight: bolder;
 }
-.contenedorFaltas{
-    display: flex;
-}
+
 .falta{
-    background-color: rgb(255, 251, 8);
+    display: flex;
+    gap: 20px;
     width: 30px;
     height: 30px;
 }
@@ -36,8 +31,21 @@ font-weight: bolder;
     font-weight: 600;
 }.marcador{
     display: flex;
+    border: 0px;
 }
 .numeroMarcador{
     font-size:100px;
     font-weight:bolder;
+}
+.amarilla{
+    background-color: rgb(255, 251, 8);
+}
+.roja{
+    background-color: rgb(255, 0, 0);
+   
+}
+.columnas{
+    display: flex;
+    gap: 40px;
+    margin-left: 40%;
 }

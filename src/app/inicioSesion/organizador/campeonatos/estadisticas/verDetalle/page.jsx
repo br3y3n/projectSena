@@ -10,11 +10,16 @@ export default function VerDetalle() {
         <section className='contenedorDetalle'>
           <div className='contenedorEquipo'>
 
-            <Image src="/image/imageEstadistica/nacional.png" width={1000} height={1000} className='imageEquipo' />
+            <Image src="/image/imageEstadistica/nacional.png" width={500} height={500} className='imageEquipo' />
             <h1 className='nombreEquipo'>Nacional</h1>
             <div className='contenedorFaltas'>
-          <p className='nombreFalta'> Cristian Castro</p>
-         <div className='falta'> </div>
+              <table>
+                <tr className='columnas'>
+                  <th><div className='falta amarilla'> </div></th>
+                  <th><div className='falta roja'> </div></th>
+                  <th><Image src='/image/imageEstadistica/balon.png' width={55} height={55} /></th>
+                </tr>
+              </table>
             </div>
           </div>
           <div className='marcador'>
@@ -24,13 +29,18 @@ export default function VerDetalle() {
           </div>
           <div className='contenedorEquipo'>
 
-            <Image src="/image/imageEstadistica/millonarios.png" width={1000} height={1000} className='imageEquipo' />
-            <h1 className='nombreEquipo'>Nacional</h1>
+            <Image src="/image/imageEstadistica/MILONARIOS.png" width={500} height={500} className='imageEquipo' />
+            <h1 className='nombreEquipo'>Millonarios</h1>
             <div className='contenedorFaltas'>
+              <table>
+                <tr className='columnas'>
+                  <th><div className='falta amarilla'> </div></th>
+                  <th><div className='falta roja'> </div></th>
+                  <th><Image src='/image/imageEstadistica/balon.png' width={55} height={50} /></th>
+                </tr>
+</table>
 
 
-              <p className='nombreFalta'> Cristian Castro</p>
-              <div className='falta'> </div>
             </div>
           </div>
 
