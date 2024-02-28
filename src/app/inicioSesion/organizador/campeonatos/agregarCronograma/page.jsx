@@ -1,32 +1,35 @@
+"use client"
+import React from 'react'
 import SideCampeonato from '@/Components/sideCampeonato'
 import RootLayout from '@/app/layout'
 import "./Cronograma.css"
-import JornadaTarde from './tarde/Tarde'
-import JornadaMañana from './manana/Mañana'
-import { useRouter } from 'next/navigation';
-const path = "/inicioSecion/organizador/campeonatos/agregarCronogramas/"
+import Tarde from './tarde/page'
+import Manana from './manana/page'
+import { useState } from 'react'
+
 export default function Cronograma() {
-  const router = useRouter();
+  const [selectOption , setSelectOption] = useState ('manana')
+
   const handleChange = (event) => {
-    rutas = event.target.value;
-    if (rutas)
-      router.push(rutas)
-  }
+    setSelectOption(event.target.value)
+        }
   return (
     <RootLayout>
 
       <SideCampeonato />
       <div class="ContainerPrincipal">
         <div class="contenedorCronograma">
-          <select name="" id="" onChange={handleChange}>
-            <option value={`${path}/manana`}>Jornada Mañana
+          <select value={selectOption} onChange={handleChange}>
+            <option value={"manana"} >Jornada Mañana
             </option>
-            <option value={`${path}/tarde`}>Jornada Tarde</option>
+            <option value={"tarde"}>Jornada Tarde</option>
           </select>
+         
         </div>
-        <JornadaTarde />
-        <JornadaMañana />
-      </div>
+        {selectOption === 'manana' && <Manana />}
+          {selectOption === 'tarde' && <Tarde />}
+      
+        </div>
 
     </RootLayout>
   )

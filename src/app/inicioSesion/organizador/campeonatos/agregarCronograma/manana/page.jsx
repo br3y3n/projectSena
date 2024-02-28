@@ -1,14 +1,17 @@
-
+"use client"
+import "../Cronograma.css"
 import ComponenteCronograma from '../EditorCronograma'
 import Image from 'next/image'
-
-export default function manana() {
+import React from 'react'
+export default function Manana() {
     return (
         <>
-
+        <section>
+                <h1 class="texto">Mañana</h1>
+            </section>
             <div class="contendorEquipos">
 
-                <ComponenteCronograma TituloJornada={'Mañana'} texto2={"Cali"} texto1={"Once Caldas"}
+                <ComponenteCronograma texto2={"Cali"} texto1={"Once Caldas"}
                     imagen1={<Image src={'/image/Cronogramas/EscudoNacional.png'} />}
                     imagen2={""}
                 />

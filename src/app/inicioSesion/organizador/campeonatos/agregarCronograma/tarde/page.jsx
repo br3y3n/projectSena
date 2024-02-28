@@ -1,11 +1,15 @@
+import React from 'react'
 import ComponenteCronograma from "../EditorCronograma"
-
-export default function tarde() {
+import "../Cronograma.css"
+export default function Tarde() {
     return (
         <>
+        <section>
+                <h1 class="texto">Tarde</h1>
+            </section>
             <div class="contendorEquipos">
                 <ComponenteCronograma
-                    TituloJornada={'Tarde'} imagen1={''}
+                     imagen1={''}
                     texto1={'Cali'} texto2={'Nacional'}></ComponenteCronograma>
                 <ComponenteCronograma
                     imagen1={''}

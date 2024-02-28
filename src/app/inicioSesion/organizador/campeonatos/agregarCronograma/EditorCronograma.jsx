@@ -1,13 +1,11 @@
 import Image from 'next/image'
 import "./Cronograma.css"
-
-export default function ComponenteCronograma({ TituloJornada, imagen2, texto1, texto2 }) {
+import React from 'react'
+export default function ComponenteCronograma({  imagen2, texto1, texto2 }) {
     return (
         <>
         
-            <section>
-                <h1 class="texto">{TituloJornada}</h1>
-            </section>
+            
             <div class="principalEquipos">
                 
                 <div class="contenedorCard">

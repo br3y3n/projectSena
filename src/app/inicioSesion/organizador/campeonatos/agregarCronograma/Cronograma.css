@@ -1,8 +1,7 @@
 .ContainerPrincipal{
     width:100%;
     overflow-y: auto;
-    display: flex;
-    flex-direction: column;
+
 }
 .contenedorCronograma{
     position: fixed;
@@ -12,6 +11,8 @@
 
 }
 .principalEquipos{
+   
+    
     padding: 15px;
     margin: auto;
     width: auto;
@@ -20,7 +21,10 @@
 /* module.css */
 
 .contenedorEqipos{
-    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Dos columnas de igual ancho */
+    grid-gap: 10px;
+ 
 }
 .texto{
     font-size: 25px;

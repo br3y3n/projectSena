@@ -11,11 +11,10 @@ const path ='/inicioSesion/organizador/campeonatos/estadisticas'
 
 export default function PageEstadisticas() {
   const router = useRouter()
-  const [selectedOption, setSelectedOption] = useState();
 
   const handleChange = (event) => {
     const ruta = event.target.value;
-    setSelectedOption(ruta);
+
     if (ruta) {
       router.push(ruta);
     }
