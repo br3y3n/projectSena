@@ -4,7 +4,7 @@
     background-color: #53637a;
     border-radius:10px ;
     width: max-content;
-    position: fixed;
+    position: sticky;
   }
   .lista{
     list-style: none;

@@ -1,112 +1,27 @@
 
 .contenedor2{
     width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-   background-color: #344050;
-    overflow-y: auto;
 }
-.contenedorDelNavbar{
-    display: flex;
-    justify-content: center; 
-}
-
-.imagenMasCampeonato{
-    
-    justify-content: center;
-    
-}
-
-.Navbar{
-   display: grid;
-   grid-gap: 30px;
-}
-.headerSidebar{
-    display: flex;
-    justify-content: start;
-}
-.sidebar2{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.contenedorPrincipalFormulario{
-    width: 100%;
-   border: white solid 2px;
-
-}
-.contenedorCrearCampeonato{
-   
-    width: 80%;
-    margin: auto;
-   background-color: #43474d;
-}
-
-@keyframes scale-up {
-    to {scale: 1.5;}
-}
-@keyframes fade-away {
-    to {opacity: 0;}
-}
-section{
-    view-timeline: --scroll;
-}
-
-
-h1 .spanText{
-    animation:
-		scale-up both ease-in-out,
-		fade-away both linear;
-	animation-timeline: --scroll;
-	animation-range:
-		exit 0% exit 100%,
-		exit 50% exit 90%;
-}
-.seccionText{
-    position: relative;
-    min-height: 50vh ;
-    display: grid;
-    place-items: center;
-    
-}
-.spanText:first-of-type{
+.textDeCrearCampeonato{
+    font-size: 20px;
+    height: 25px;
+    text-align: center;
     color: white;
-    font-size: 50px;
-}
-.seccionText:nth-of-type(1){
-    height: 50vh;
-}
-.texto{
-    margin: 0px 50px;
-    font-size: 25px;
-   text-align: center;
-   color: white;
-   
-}
- .fieldset{
-    display: flex;
-    flex-direction: column;
-   align-content: center;
-    width: 40%;
-    border:white solid 1px;
-    padding: 20px;
-    border-radius: 5px;
-    color: white;
-} 
-.legend{
-    font-size: 18px;
-    font-weight: bold;
-    margin-bottom: 10px;
-    
 }
 .Formulario{
+    border-radius: 15px;
+    padding: 20px;
+    background-color: rgb(87, 97, 105);
+    width: 50%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    gap: 80px;
+    margin: auto;
+    gap: 30px;
+    margin-top: 25px;
+    color: white;
 } 
+
 .form-group{
     display: flex;
     justify-content: center;
@@ -136,7 +51,6 @@ h1 .spanText{
    
 }
 .form-group input::placeholder{
-    
     color: transparent;
 }
 .form-group .form-label{
@@ -176,62 +90,9 @@ color:white;
 }
 
 option, select{
-    color:black;
-}
-.calendario {
-  width: 100%; /* Ajusta el ancho según sea necesario */
-  height: 600px; /* Ajusta la altura según sea necesario */
+    color:rgb(255, 0, 0);
 }
 
-/* Estilos para el calendario en sí */
-.DiseñoDeCalendario {
-  border: 1px solid #ffffff; /* Añade un borde alrededor del calendario */
-  border-radius: 8px; /* Ajusta la curvatura de las esquinas */
-  box-shadow: 0 0 10px rgba(68, 68, 68, 0.1); /* Añade sombra */
-}
-
-/* Estilos para los botones de navegación */
-.fc-toolbar {
-  background-color: #fa615c; /* Cambia el color de fondo */
-}
-
-/* Estilos para los eventos */
-.fc-event {
-  background-color: #ff0000; /* Cambia el color de fondo de los eventos */
-  color: #fff; /* Cambia el color del texto de los eventos */
-}
-.fc-toolbar-title {
-  font-size: 24px; /* Ajusta el tamaño de la fuente del título */
-  font-weight: bold; /* Añade negrita al título */
-  color: #ffffff; /* Cambia el color del texto del título */
-}
-.fc-button {
-  background-color: #fefeff; /* Cambia el color de fondo de los botones */
-  color: #fff; /* Cambia el color del texto de los botones */
-  border: none; /* Quita el borde de los botones */
-  border-radius: 5px; /* Ajusta la curvatura de las esquinas de los botones */
-  margin: 5px; /* Añade espacio entre los botones */
-  padding: 8px 12px; /* Ajusta el espacio interno dentro de los botones */
-  font-size: 14px; /* Ajusta el tamaño de la fuente de los botones */
-}
-.fc-button-disabled {
-  background-color: #ff0000; /* Cambia el color de fondo de los botones deshabilitados */
-  color: #ffffff; /* Cambia el color del texto de los botones deshabilitados */
-}
-.fc-today-button {
-  background-color: #28a745; /* Cambia el color de fondo del botón "today" */
-}
-
-/* Estilos para el botón "prev" */
-.fc-prev-button {
-  margin-right: 10px; 
-  background-color: #ff0000  ;/* Añade espacio a la derecha del botón "prev" */
-}
-
-/* Estilos para el botón "next" */
-.fc-next-button {
-  margin-left: 10px; /* Añade espacio a la izquierda del botón "next" */
-}
 .botonCalendar{
    display: flex;
    flex-direction : row ;
