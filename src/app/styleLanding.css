@@ -3,28 +3,23 @@
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    min-width: 100vw;
-    padding-top: 50px;
-
 
 }
-
 
 
 .Sub-cont {
     display: flex;
     justify-content: center;
-    align-items: center;
     background-color: rgba(255, 255, 255, 0.55);
-    width: 90%;
-    padding: 50px;
-    border-radius: 10px;
-
+    width: 85%;
+    padding: 70px 20px 70px 20px;
+    border-radius: 10px 10px 0px 0px;
+    height: 80%;
 
 }
 
 .cont-p {
-    width: 60%;
+    width: 50%;
     font-size: 25px;
     margin-right: 50px;
 
@@ -33,20 +28,463 @@
 
 .Sub-cont button {
     background-color: #C63F3F;
-    padding: 10px;
+    padding: 15px;
     width: 230px;
     border-radius: 10px;
     font-weight: bold;
 
 }
 
-.photo{
+.photo {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .photo img {
     overflow: hidden;
-    width: 400px;
-    height: 300px;
+    width: 795px;
+    height: 500px;
+
+}
+
+.section-2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.55);
+    width: 85%;
+    margin-top: 30px;
+    padding: 35px;
+
+}
+
+.title {
+    background-color: rgba(37, 51, 68, 0.2);
+    width: 300px;
+    padding: 20px;
+    display: grid;
+    place-content: center;
+    font-weight: bold;
+    margin-bottom: 30px;
+    border-radius: 5px;
+}
+
+.title-2 {
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 40px;
+    padding-top: 20px;
+}
+
+.title-3 {
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+    text-align: justify;
+    padding: 10px 50px;
+
+}
+
+.boton-footer {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.55);
+    width: 85%;
+    padding-top: 50px;
+    padding-bottom: 40px;
+
+
+}
+
+.boton-footer p {
+    font-size: 1.5rem;
+    line-height: 1.5;
+    font-weight: bold;
+    padding-bottom: 70px;
+}
+
+.boton-footer button {
+    background-color: #C63F3F;
+    padding: 15px;
+    width: 230px;
+    border-radius: 10px;
+    font-weight: bold;
+    padding-top: 20px;
+
+}
+
+.section-player {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.55);
+    width: 85%;
+    margin-top: 30px;
+    padding: 35px;
+}
+
+.section-3 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.55);
+    width: 85%;
+    margin-top: 30px;
+    padding: 60px;
+
+}
+
+.section-3-h1 {
+    font-size: 1.5rem;
+    line-height: 1.5;
+    font-weight: bold;
+    padding-bottom: 40px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.section-3-h5 {
+    font-size: 1.5rem;
+    line-height: 1.5;
+    font-weight: bold;
+    padding: 20px 40px;
+    padding-bottom: 40px;
+    font-size: 26px;
+}
+
+.section-3-p {
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+    text-align: justify;
+    padding: 10px 50px;
+
+}
+
+
+.section-3-p2 {
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+    text-align: justify;
+    padding: 25px 0px;
+    font-weight: bold;
+
+}
+
+.section-3-pp {
+
+    font-size: 1.5rem;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+    text-align: justify;
+    padding-right: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-3-p3 {
+
+    font-size: 1.5rem;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+    text-align: justify;
+    padding-right: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+.section-3-p4 {
+    font-size: 1.5rem;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+    text-align: justify;
+    padding-right: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loadingspinner {
+    --square: 26px;
+    --offset: 30px;
+    --duration: 2.4s;
+    --delay: 0.2s;
+    --timing-function: ease-in-out;
+    --in-duration: 0.4s;
+    --in-delay: 0.1s;
+    --in-timing-function: ease-out;
+    width: calc(3 * var(--offset) + var(--square));
+    height: calc(2 * var(--offset) + var(--square));
+    padding: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    position: relative;
+
+}
+
+.loadingspinner div {
+    display: inline-block;
+    background: darkorange;
+    /*background: var(--text-color);*/
+    /*box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);*/
+    border: none;
+    border-radius: 2px;
+    width: var(--square);
+    height: var(--square);
+    position: absolute;
+    padding: 0px;
+    margin: 0px;
+    font-size: 6pt;
+    color: black;
+}
+
+.loadingspinner #square1 {
+    left: calc(0 * var(--offset));
+    top: calc(0 * var(--offset));
+    animation: square1 var(--duration) var(--delay) var(--timing-function) infinite,
+        squarefadein var(--in-duration) calc(1 * var(--in-delay)) var(--in-timing-function) both;
+}
+
+.loadingspinner #square2 {
+    left: calc(0 * var(--offset));
+    top: calc(1 * var(--offset));
+    animation: square2 var(--duration) var(--delay) var(--timing-function) infinite,
+        squarefadein var(--in-duration) calc(1 * var(--in-delay)) var(--in-timing-function) both;
+}
+
+.loadingspinner #square3 {
+    left: calc(1 * var(--offset));
+    top: calc(1 * var(--offset));
+    animation: square3 var(--duration) var(--delay) var(--timing-function) infinite,
+        squarefadein var(--in-duration) calc(2 * var(--in-delay)) var(--in-timing-function) both;
+}
+
+.loadingspinner #square4 {
+    left: calc(2 * var(--offset));
+    top: calc(1 * var(--offset));
+    animation: square4 var(--duration) var(--delay) var(--timing-function) infinite,
+        squarefadein var(--in-duration) calc(3 * var(--in-delay)) var(--in-timing-function) both;
+}
+
+.loadingspinner #square5 {
+    left: calc(3 * var(--offset));
+    top: calc(1 * var(--offset));
+    animation: square5 var(--duration) var(--delay) var(--timing-function) infinite,
+        squarefadein var(--in-duration) calc(4 * var(--in-delay)) var(--in-timing-function) both;
+}
+
+@keyframes square1 {
+    0% {
+        left: calc(0 * var(--offset));
+        top: calc(0 * var(--offset));
+    }
+
+    8.333% {
+        left: calc(0 * var(--offset));
+        top: calc(1 * var(--offset));
+    }
+
+    100% {
+        left: calc(0 * var(--offset));
+        top: calc(1 * var(--offset));
+    }
+}
+
+@keyframes square2 {
+    0% {
+        left: calc(0 * var(--offset));
+        top: calc(1 * var(--offset));
+    }
+
+    8.333% {
+        left: calc(0 * var(--offset));
+        top: calc(2 * var(--offset));
+    }
+
+    16.67% {
+        left: calc(1 * var(--offset));
+        top: calc(2 * var(--offset));
+    }
+
+    25.00% {
+        left: calc(1 * var(--offset));
+        top: calc(1 * var(--offset));
+    }
+
+    83.33% {
+        left: calc(1 * var(--offset));
+        top: calc(1 * var(--offset));
+    }
+
+    91.67% {
+        left: calc(1 * var(--offset));
+        top: calc(0 * var(--offset));
+    }
+
+    100% {
+        left: calc(0 * var(--offset));
+        top: calc(0 * var(--offset));
+    }
+}
+
+@keyframes square3 {
+
+    0%,
+    100% {
+        left: calc(1 * var(--offset));
+        top: calc(1 * var(--offset));
+    }
+
+    16.67% {
+        left: calc(1 * var(--offset));
+        top: calc(1 * var(--offset));
+    }
+
+    25.00% {
+        left: calc(1 * var(--offset));
+        top: calc(0 * var(--offset));
+    }
+
+    33.33% {
+        left: calc(2 * var(--offset));
+        top: calc(0 * var(--offset));
+    }
+
+    41.67% {
+        left: calc(2 * var(--offset));
+        top: calc(1 * var(--offset));
+    }
+
+    66.67% {
+        left: calc(2 * var(--offset));
+        top: calc(1 * var(--offset));
+    }
+
+    75.00% {
+        left: calc(2 * var(--offset));
+        top: calc(2 * var(--offset));
+    }
+
+    83.33% {
+        left: calc(1 * var(--offset));
+        top: calc(2 * var(--offset));
+    }
+
+    91.67% {
+        left: calc(1 * var(--offset));
+        top: calc(1 * var(--offset));
+    }
+}
+
+@keyframes square4 {
+    0% {
+        left: calc(2 * var(--offset));
+        top: calc(1 * var(--offset));
+    }
+
+    33.33% {
+        left: calc(2 * var(--offset));
+        top: calc(1 * var(--offset));
+    }
+
+    41.67% {
+        left: calc(2 * var(--offset));
+        top: calc(2 * var(--offset));
+    }
+
+    50.00% {
+        left: calc(3 * var(--offset));
+        top: calc(2 * var(--offset));
+    }
+
+    58.33% {
+        left: calc(3 * var(--offset));
+        top: calc(1 * var(--offset));
+    }
+
+    100% {
+        left: calc(3 * var(--offset));
+        top: calc(1 * var(--offset));
+    }
+}
+
+@keyframes square5 {
+    0% {
+        left: calc(3 * var(--offset));
+        top: calc(1 * var(--offset));
+    }
+
+    50.00% {
+        left: calc(3 * var(--offset));
+        top: calc(1 * var(--offset));
+    }
+
+    58.33% {
+        left: calc(3 * var(--offset));
+        top: calc(0 * var(--offset));
+    }
+
+    66.67% {
+        left: calc(2 * var(--offset));
+        top: calc(0 * var(--offset));
+    }
+
+    75.00% {
+        left: calc(2 * var(--offset));
+        top: calc(1 * var(--offset));
+    }
+
+    100% {
+        left: calc(2 * var(--offset));
+        top: calc(1 * var(--offset));
+    }
+}
+
+@keyframes squarefadein {
+    0% {
+        transform: scale(0.75);
+        opacity: 0.0;
+    }
+
+    100% {
+        transform: scale(1.0);
+        opacity: 1.0;
+    }
+}
+
+
+.section-4 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.55);
+    width: 85%;
+    margin-top: 30px;
+    padding: 60px;
+}
+
+.section-4-h3 {
+    line-height: 1.5;
+    font-weight: bold;
+    padding-bottom: 50px;
+    font-size: 35px;
+    text-align: center;
+    margin: 50px;
+
 }

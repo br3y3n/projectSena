@@ -4,17 +4,20 @@ export default function Header() {
 
     return (
         <>
-            <header>
-                <div className='containerPrincipal'>
-                    <nav className='navLanding'>
-                        <a href="">INICIAR SESIÓN</a>
-                        <a href="">REGISTRARSE</a>
-                        <a href="">EQUIPO BIENESTAR</a>
-                        <a href="">CONTACTANOS</a>
-                    </nav>
+            <nav>
+                <div class='containerPrincipal'>
+                    <div class="logo">
+                        <img src="" alt="Logo"/>
+                    </div>
+                    <div class="links">
+                        <a href="">Iniciar sesión</a>
+                        <a href="">Regristrarse</a>
+                        <a href="">Equipo Bienestar</a>
+                        <a href="">Contactanos</a>
+                    </div>
                 </div>
-            </header>
-        
+            </nav>
+
         </>
 
     )
