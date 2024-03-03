@@ -25,7 +25,7 @@ export default function Cronograma() {
             <option value={"tarde"}>Jornada Tarde</option>
           </select>
          
-        </div>
+        </div >
         {selectOption === 'manana' && <Manana />}
           {selectOption === 'tarde' && <Tarde />}
       

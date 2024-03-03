@@ -25,9 +25,13 @@
 /* module.css */
 
 .contenedorEquipos{
+    width: 80%;
+    border-radius: 10px; 
+    margin: auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    background-color: rgba(119, 118, 129, 0.64);
 
 }
 .texto{
@@ -47,7 +51,7 @@
     display: flex;
 }
 .contenedorCard:hover{
-    box-shadow:10px 20px 10px rgba(0, 0, 0, 0.3);
+    box-shadow:10px 20px 10px rgba(213, 107, 107, 0.3);
     transform: translate(0px,-5px);
 }
 .seccion1{
